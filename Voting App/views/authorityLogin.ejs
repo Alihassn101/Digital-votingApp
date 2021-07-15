@@ -1,0 +1,62 @@
+<%- include ('partials/pollingheader') %>
+
+<section class="form my-4 mx-5">
+  <div class="container">
+      <div class="row no-gutters">
+          <div class="col-lg-5">
+              <img src="./form.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-7 px-5 pt-5">
+              <h1 class="font-weight-bold py-3">Authority Login <%= msg %> !</h1>
+              <h4>LogIn to Your Poll here!</h4>
+
+              <form action="/authorityLogin" method="POST">
+
+
+                  <div class="form-row">
+                      <div class="col-lg-7">
+                          <input name="blockChainName" placeholder="PollingName (Without Space)"
+                              class="form-control my-2 p-3" required>
+                      </div>
+                  </div>
+                  <div class="form-row">
+                      <div class="col-lg-7">
+                          <input type="text" name="UserName" placeholder="UserName" class="form-control my-2 p-3" required>
+                      </div>
+                  </div>
+
+
+                  <div class="form-row">
+                      <div class="col-lg-7">
+
+                          <input type="text" class="form-control my-2 p-3"
+                               required minlength="13" maxlength="13"
+                              placeholder="CNIC" name="CNIC">
+
+                      </div>
+                  </div>
+
+
+
+                  <div class="form-row">
+                      <div class="col-lg-7">
+                          <input type="Password" name="Password" placeholder="Authority password" class="form-control my-2 p-3"
+                              required>
+                      </div>
+                  </div>
+
+                  <div class="form-row">
+                      <div class="col-lg-7">
+                          <button type="submit" class="btn1 mt-2 mb-3"> Submit </button>
+                      </div>
+                  </div>
+
+
+
+              </form>
+          </div>
+      </div>
+  </div>
+</section>
+
+<%- include ('partials/footer') %>

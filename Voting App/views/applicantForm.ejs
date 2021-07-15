@@ -1,0 +1,168 @@
+
+<%- include ('partials/Individualheader') %>
+
+<section class="form my-4 mx-5">
+    <div class="container">
+        <div class="row no-gutters">
+
+            <div class="col-lg-12 px-5 pt-5" style="text-align: center;">
+                <h1 class="font-weight-bold py-3"> Candidate Personal Information</h1>
+
+                <form action="/CandiadateApply" method="POST">
+                    <div class="form-row justify-content-center">
+                        <div class="col-lg-7">
+                            <input type="text" placeholder="Name" Name="Name" class="form-control my-2 p-3" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row justify-content-center">
+                        <div class="col-lg-7">
+
+                            <input type="text" class="form-control my-2 p-3" 
+                                placeholder="CNIC" name="CNIC" pattern="(.){13,13}"  maxlength="13" onkeyup="cniconly(this)" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row justify-content-center">
+                        <div class="col-lg-7">
+                            <select name="City" class="browser-default custom-select my-2" placeholder="City">
+                                <option value="None">Select City</option>
+                                    <%for(var i=0;i<cities.length;i++){%>
+                                      <option value="<%=cities[i]%>"><%=cities[i]%></option>
+                                    <%}%>
+                            </select>
+                            <!-- <input type="text" placeholder="City" name="City" class="form-control my-2 p-3" required> -->
+                        </div>
+                    </div>
+
+                    <div class="form-row justify-content-center">
+                        <div class="col-lg-7">
+                            <select name="Province" class="browser-default custom-select my-2" placeholder="Province">
+                                <option value="Punjab">Punjab</option>
+                                <option value="Balochistan">Balochistan</option>
+                                <option value="Sindh">Sindh</option>
+                                <option value="KPK">KPK</option>
+                                <option value="Federal">Federal</option>
+                            
+                            </select>
+                            <!-- <input type="text" placeholder="Province" name="Province" class="form-control my-2 p-3" required> -->
+                        </div>
+                    </div>
+
+                    <!-- <div class="form-row justify-content-center">
+                        <div class="col-lg-7">
+                            Date Of Birth<input type="date" placeholder="Date Of Birth" name="DOB" class="form-control my-2 p-3" required>
+                        </div>
+                    </div> -->
+                    <div class="form-row justify-content-center">
+                        <div class="input-group col-lg-7 py-2">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text">Date Of Birth</span>
+                            </div>
+                            <input type="date" name="DOB" class="form-control">
+                          </div>
+                       </div>
+
+                    <strong>Gender : </strong>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" checked name="Gender" id="GenderID"
+                            value="Male">
+                        <label class="form-check-label" for="inlineRadio1">Male</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="Gender" id="GenderID"
+                            value="Female">
+                        <label class="form-check-label" for="inlineRadio2">Female</label>
+                    </div>
+
+                    <hr>
+
+
+                    <h1 class="font-weight-bold py-3"> Candidate Educational Information</h1>
+
+                    <div class="form-row justify-content-center">
+                        <div class="col-lg-7">
+                            <input type="text" placeholder="Degree" name="Degree" class="form-control my-2 p-3" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row justify-content-center">
+                        <div class="col-lg-7">
+                            <input type="text" placeholder="Year"  name="Year" pattern="(.){4,4}"  maxlength="4" onkeyup="cniconly(this)" class="form-control my-2 p-3" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row justify-content-center">
+                        <div class="col-lg-7">
+                            <input type="text" placeholder="Institute" name="Institute" class="form-control my-2 p-3" required>
+                        </div>
+                    </div>
+
+                   <div class="form-row justify-content-center">
+                    <div class="input-group col-lg-7 py-2">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">Session Start</span>
+                        </div>
+                        <input type="date" name="Start" class="form-control">
+                      </div>
+                   </div>
+
+                   <div class="form-row justify-content-center">
+                    <div class="input-group col-lg-7 py-2">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" >Session End</span>
+                        </div>
+                        <input type="date" name="End" class="form-control">
+                      </div>
+                   </div>
+
+
+                   <hr>
+                   <h1 class="font-weight-bold py-3"> Candidate Property Information</h1>
+
+                   <div class="form-row justify-content-center">
+                    <div class="col-lg-7">
+                        <input type="text" placeholder="Property value(RS)" name="Value" onkeyup="cniconly(this)" class="form-control my-2 p-3" required>
+                    </div>
+                </div>
+
+                <div class="form-row justify-content-center">
+                    <div class="col-lg-7">
+                        <input type="text" placeholder="Profession" name="Profession" class="form-control my-2 p-3" required>
+                    </div>
+                </div>
+
+                <div class="form-row justify-content-center">
+                    <div class="col-lg-7">
+                        <input type="text" placeholder="Monthly Income" name="Monthly Income"  onkeyup="cniconly(this)" class="form-control my-2 p-3" required>
+                    </div>
+                </div>
+
+                <div class="form-row justify-content-center">
+                    <div class="col-lg-7">
+                        <input type="text" placeholder="Any Other Income Resources (Optional)" name="Income_Resources" class="form-control my-2 p-3" >
+                    </div>
+                </div>
+
+                <div class="col-lg-12 px-5 pt-3 mb-3" style="text-align: center;">
+                    <input type="submit" class="btn btn-success btn-lg"></input>
+                </div>
+
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+<script type="text/JavaScript">
+    function cniconly(i) {
+        var cnic = /[^0-9]/gi;
+        i.value=i.value.replace(cnic, "");
+    } 
+</script>
+
+<%- include ('partials/footer') %>
+
+

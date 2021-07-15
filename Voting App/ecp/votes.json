@@ -1,0 +1,1118 @@
+[{
+  "_id": {
+    "$oid": "5fccc3985814ef2564604067"
+  },
+  "timestamp": {
+    "$date": "2020-12-06T11:42:16.107Z"
+  },
+  "data": "GenesisBlock",
+  "previousHash": "0",
+  "blockStatus": null,
+  "hash": "369f3270441559ce45293144817a7780b45550efb3d51762fef82fbc3f7a0b64"
+},{
+  "_id": {
+    "$oid": "5fcdf3622efab6037d533147"
+  },
+  "timestamp": {
+    "$date": "2020-12-07T09:18:26.825Z"
+  },
+  "data": {
+    "voterHash": "a0127417bc78986e7d8fd5cfde088029df393dc72b203a2f4873f1ec63e1c4a2",
+    "candidateHash": "038ce20d9a181185bbd0d29f8f72c67c94e7f1001d1a24a33f0b012cf12721fd"
+  },
+  "previousHash": "369f3270441559ce45293144817a7780b45550efb3d51762fef82fbc3f7a0b64",
+  "blockStatus": null,
+  "hash": "75090b9a1363644cf9626dd510da74865ca970cc193123a172d74424d866474b"
+},{
+  "_id": {
+    "$oid": "5fcdf3762efab6037d533148"
+  },
+  "timestamp": {
+    "$date": "2020-12-07T09:18:46.897Z"
+  },
+  "data": {
+    "voterHash": "e1110d50b2031f371e4b856c487f03788dcbfe5d2ace4f12bdd351cb569d7fca",
+    "candidateHash": "038ce20d9a181185bbd0d29f8f72c67c94e7f1001d1a24a33f0b012cf12721fd"
+  },
+  "previousHash": "75090b9a1363644cf9626dd510da74865ca970cc193123a172d74424d866474b",
+  "blockStatus": null,
+  "hash": "135122ebced4cd113bfb9cc5583f693f998f927d4c68b0df60c2bbcbc8d22364"
+},{
+  "_id": {
+    "$oid": "5fcdf38a2efab6037d533149"
+  },
+  "timestamp": {
+    "$date": "2020-12-07T09:19:06.255Z"
+  },
+  "data": {
+    "voterHash": "cca886b3f56ebdd22db60e8c3a79edc664fa116f6fe020b47dfc509affd09c89",
+    "candidateHash": "038ce20d9a181185bbd0d29f8f72c67c94e7f1001d1a24a33f0b012cf12721fd"
+  },
+  "previousHash": "135122ebced4cd113bfb9cc5583f693f998f927d4c68b0df60c2bbcbc8d22364",
+  "blockStatus": null,
+  "hash": "49bd60ee76bd638e864c1f6a95b6b244378cca32315a97285bc50de753669819"
+},{
+  "_id": {
+    "$oid": "5fcdf3a12efab6037d53314a"
+  },
+  "timestamp": {
+    "$date": "2020-12-07T09:19:29.579Z"
+  },
+  "data": {
+    "voterHash": "3f7ed048714a3a6f34f33af06659079a1c204e0e220d0f4a496c3e52470330b7",
+    "candidateHash": "038ce20d9a181185bbd0d29f8f72c67c94e7f1001d1a24a33f0b012cf12721fd"
+  },
+  "previousHash": "49bd60ee76bd638e864c1f6a95b6b244378cca32315a97285bc50de753669819",
+  "blockStatus": null,
+  "hash": "c064760dc9ecddfea0b5fb4e1352b0a27b9e73873f0e331dcbcc74b7c6ab7564"
+},{
+  "_id": {
+    "$oid": "5fcdf3b32efab6037d53314b"
+  },
+  "timestamp": {
+    "$date": "2020-12-07T09:19:47.354Z"
+  },
+  "data": {
+    "voterHash": "6a3c16ce41c65469223607cf269715e5a66ca8ec6d94eee8149651d8b659a02c",
+    "candidateHash": "5095162d7860fee40355f1a9e0ad4c667d6f33082081a842746b1401033ea6ba"
+  },
+  "previousHash": "c064760dc9ecddfea0b5fb4e1352b0a27b9e73873f0e331dcbcc74b7c6ab7564",
+  "blockStatus": null,
+  "hash": "70a6a22a00605cb34facee769325cf84dd49d4a5825138110e92615660c21759"
+},{
+  "_id": {
+    "$oid": "5fcdf3c62efab6037d53314c"
+  },
+  "timestamp": {
+    "$date": "2020-12-07T09:20:06.717Z"
+  },
+  "data": {
+    "voterHash": "6b5df672dbdcd57724d4615d05e4547522ea67ff1725de23d6094f15b77d6f9f",
+    "candidateHash": "5095162d7860fee40355f1a9e0ad4c667d6f33082081a842746b1401033ea6ba"
+  },
+  "previousHash": "70a6a22a00605cb34facee769325cf84dd49d4a5825138110e92615660c21759",
+  "blockStatus": null,
+  "hash": "feddd5e07a00db65e2b5ecbb3260fd312dcf373bcaf7d7f3ad0526e9b93d25bb"
+},{
+  "_id": {
+    "$oid": "5fcdf3e22efab6037d53314d"
+  },
+  "timestamp": {
+    "$date": "2020-12-07T09:20:34.104Z"
+  },
+  "data": {
+    "voterHash": "ff6e15677dca1628de74dc5a3403133658d1922dd879a91f1118ab5cf523b0d1",
+    "candidateHash": "5095162d7860fee40355f1a9e0ad4c667d6f33082081a842746b1401033ea6ba"
+  },
+  "previousHash": "feddd5e07a00db65e2b5ecbb3260fd312dcf373bcaf7d7f3ad0526e9b93d25bb",
+  "blockStatus": null,
+  "hash": "db92aa389a78ca555ffbdbc48fdea5e3b13174f1a60344ff25f8164942bdedc0"
+},{
+  "_id": {
+    "$oid": "5fcdf3f52efab6037d53314e"
+  },
+  "timestamp": {
+    "$date": "2020-12-07T09:20:53.067Z"
+  },
+  "data": {
+    "voterHash": "e31efb68cafa9179dc3311b8b75d430ad67a3d94c2e9fbb01fc5d63765672f46",
+    "candidateHash": "33cd1b6c19ed5f45838a228b1df2a344472d52496855aec9b815ac32959b8c23"
+  },
+  "previousHash": "db92aa389a78ca555ffbdbc48fdea5e3b13174f1a60344ff25f8164942bdedc0",
+  "blockStatus": null,
+  "hash": "ddb16c302bffc419a5d00c055e64bd2881c4226f0465141327ec89c0c85870da"
+},{
+  "_id": {
+    "$oid": "5fcdf4072efab6037d53314f"
+  },
+  "timestamp": {
+    "$date": "2020-12-07T09:21:11.391Z"
+  },
+  "data": {
+    "voterHash": "717f3a9551621bf8c7b4cd110335447985d08f3bdb2e4057da0277d8b2cf825d",
+    "candidateHash": "33cd1b6c19ed5f45838a228b1df2a344472d52496855aec9b815ac32959b8c23"
+  },
+  "previousHash": "ddb16c302bffc419a5d00c055e64bd2881c4226f0465141327ec89c0c85870da",
+  "blockStatus": null,
+  "hash": "ab633abe7f912c7bb9c0793a7b5da4b625c6507b7305ed57c7be365a1b269515"
+},{
+  "_id": {
+    "$oid": "5fcdfa3a2efab6037d533150"
+  },
+  "timestamp": {
+    "$date": "2020-12-07T09:47:38.644Z"
+  },
+  "data": {
+    "voterHash": "95cad87f7d2d4c4bdf8662da9be533cdf4e0ed11885af1b0b198773d14ca8d2d",
+    "candidateHash": "038ce20d9a181185bbd0d29f8f72c67c94e7f1001d1a24a33f0b012cf12721fd"
+  },
+  "previousHash": "ab633abe7f912c7bb9c0793a7b5da4b625c6507b7305ed57c7be365a1b269515",
+  "blockStatus": null,
+  "hash": "b97e28fdd2f84d63cf5e17f1486276d8d8a29b867d9f6309ec47dd89cf9af6fa"
+},{
+  "_id": {
+    "$oid": "5fd1bf63caa205edc09ef4a9"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:25:39.073Z"
+  },
+  "data": {
+    "voterHash": "9049b2b97b632c34cf7c39b0a97bf7bf6a6b4055739c297097a2abc89198a04f",
+    "candidateHash": "8933ea936d5d056781067bfef3a5175cef6e5ec283aa93cc8eccb39c931e4354"
+  },
+  "previousHash": "b97e28fdd2f84d63cf5e17f1486276d8d8a29b867d9f6309ec47dd89cf9af6fa",
+  "blockStatus": null,
+  "hash": "328943f4f6fcac987f41e9a3b419038718722067e97d587fe081419765209875"
+},{
+  "_id": {
+    "$oid": "5fd1bf7ecaa205edc09ef4aa"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:26:06.416Z"
+  },
+  "data": {
+    "voterHash": "3456707a653a3985a7a746e201eb4ef28a42ab4cc85d91a160710dd4ea36905e",
+    "candidateHash": "8933ea936d5d056781067bfef3a5175cef6e5ec283aa93cc8eccb39c931e4354"
+  },
+  "previousHash": "328943f4f6fcac987f41e9a3b419038718722067e97d587fe081419765209875",
+  "blockStatus": null,
+  "hash": "c46cbcdf74edd15a5ebffa0e74b9dc5dce7aaaa5c9ae4277e3a46353355fbe79"
+},{
+  "_id": {
+    "$oid": "5fd1bf91caa205edc09ef4ab"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:26:25.178Z"
+  },
+  "data": {
+    "voterHash": "9ee20f9aa09dae0eebe0e678a40a9610ba12715e11729f49ebd61fabc0783fa0",
+    "candidateHash": "8933ea936d5d056781067bfef3a5175cef6e5ec283aa93cc8eccb39c931e4354"
+  },
+  "previousHash": "c46cbcdf74edd15a5ebffa0e74b9dc5dce7aaaa5c9ae4277e3a46353355fbe79",
+  "blockStatus": null,
+  "hash": "1ce0f531f3c55d5870fb1ff12c9fe3dd4499aef07c0e3d3a016963715c1ee349"
+},{
+  "_id": {
+    "$oid": "5fd1bfa9caa205edc09ef4ac"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:26:49.861Z"
+  },
+  "data": {
+    "voterHash": "f45228ed6fc318bb1a24c53445b620fa524076debfa2e0ae6c74366e9fcb4992",
+    "candidateHash": "8933ea936d5d056781067bfef3a5175cef6e5ec283aa93cc8eccb39c931e4354"
+  },
+  "previousHash": "1ce0f531f3c55d5870fb1ff12c9fe3dd4499aef07c0e3d3a016963715c1ee349",
+  "blockStatus": null,
+  "hash": "581f1e44f625e3a56aae64a8307eaccd44a243fec7a2b6c3bfd9c1de2e3761a2"
+},{
+  "_id": {
+    "$oid": "5fd1bfc6caa205edc09ef4ad"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:27:18.826Z"
+  },
+  "data": {
+    "voterHash": "e02821f6b7f6d21a0e94b833bfda849ded612b280d05572a6c005566c72535e6",
+    "candidateHash": "83ef9750e3e16cb6c033e28c946b14416701c5c5161e81ef6eed2d0e1276189c"
+  },
+  "previousHash": "581f1e44f625e3a56aae64a8307eaccd44a243fec7a2b6c3bfd9c1de2e3761a2",
+  "blockStatus": null,
+  "hash": "1391005ec04a772dbf2ccadf61169a1e4ca78a4f00b171abd4d420abe5468a0f"
+},{
+  "_id": {
+    "$oid": "5fd1bfdacaa205edc09ef4ae"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:27:38.235Z"
+  },
+  "data": {
+    "voterHash": "e783f18e8e3ef372a09d9ab609e3ead6f02139a13e2fc3b0e6c705dff453e3da",
+    "candidateHash": "83ef9750e3e16cb6c033e28c946b14416701c5c5161e81ef6eed2d0e1276189c"
+  },
+  "previousHash": "1391005ec04a772dbf2ccadf61169a1e4ca78a4f00b171abd4d420abe5468a0f",
+  "blockStatus": null,
+  "hash": "266693b91cb49ae9664241f39cfcb6a03f248061d3a99f340aa45893461ef8a7"
+},{
+  "_id": {
+    "$oid": "5fd1bfeccaa205edc09ef4af"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:27:56.855Z"
+  },
+  "data": {
+    "voterHash": "22efb1ee319813b5d7ea59c8f26b485e0b30436aec5813a93f0d762f7c10e447",
+    "candidateHash": "83ef9750e3e16cb6c033e28c946b14416701c5c5161e81ef6eed2d0e1276189c"
+  },
+  "previousHash": "266693b91cb49ae9664241f39cfcb6a03f248061d3a99f340aa45893461ef8a7",
+  "blockStatus": null,
+  "hash": "1f8c8d917698c3c02ecc1f0d033eea2a09548532091ecf4c4fd2cc1aae46d731"
+},{
+  "_id": {
+    "$oid": "5fd1bffecaa205edc09ef4b0"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:28:14.350Z"
+  },
+  "data": {
+    "voterHash": "4ff705d4fef7b6e9af61f98f9de5df8c68f64b8b94c980f1020392680313c2c2",
+    "candidateHash": "fc2fef9ac600445c8d7d923065264ab07523d6000089c3177373d83d5c88552a"
+  },
+  "previousHash": "1f8c8d917698c3c02ecc1f0d033eea2a09548532091ecf4c4fd2cc1aae46d731",
+  "blockStatus": null,
+  "hash": "db4e0075151848733380256f2149a307319f4eff40980dfba68c4998482dfc77"
+},{
+  "_id": {
+    "$oid": "5fd1c119caa205edc09ef4b1"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:32:57.939Z"
+  },
+  "data": {
+    "voterHash": "7d5a301461a7de3a955ce56da351b45d06aa70512369989780390150ca6096a5",
+    "candidateHash": "f1c751a3ddbdc60a8954c729d09bcacf211f86334f55d84ebe249462d8cec9df"
+  },
+  "previousHash": "db4e0075151848733380256f2149a307319f4eff40980dfba68c4998482dfc77",
+  "blockStatus": null,
+  "hash": "c365ee5bfd3d98b905cce52a4b55833052d4bf1e325b4436b7509c5d7bc92e1b"
+},{
+  "_id": {
+    "$oid": "5fd1c12fcaa205edc09ef4b2"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:33:19.740Z"
+  },
+  "data": {
+    "voterHash": "df28e17b8e7e1f67d0a3514537a4c0e418c273a91552b58de86abc342281fe45",
+    "candidateHash": "f1c751a3ddbdc60a8954c729d09bcacf211f86334f55d84ebe249462d8cec9df"
+  },
+  "previousHash": "c365ee5bfd3d98b905cce52a4b55833052d4bf1e325b4436b7509c5d7bc92e1b",
+  "blockStatus": null,
+  "hash": "b1355c9080350b4d6510ee868d85b51704de0466772691a3bdd8ced1566d638e"
+},{
+  "_id": {
+    "$oid": "5fd1c144caa205edc09ef4b3"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:33:40.316Z"
+  },
+  "data": {
+    "voterHash": "6222d2f34f5b1d4d1ddc042fdb752258466d9a7df603ec4b013c2b98039c3373",
+    "candidateHash": "31fecf185848b506f5d6d690e23fa979b5f7f94b16d96e0aa7e397f57a56c246"
+  },
+  "previousHash": "b1355c9080350b4d6510ee868d85b51704de0466772691a3bdd8ced1566d638e",
+  "blockStatus": null,
+  "hash": "2fdcc9346eef40cfe066ce424b6ddb029fa267f23e97ff2db585db971486b745"
+},{
+  "_id": {
+    "$oid": "5fd1c15bcaa205edc09ef4b4"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:34:03.250Z"
+  },
+  "data": {
+    "voterHash": "b0c2dfb02ca7b99c35a7d9d1c3479f0524bdfa09543f580217ca10aa59154937",
+    "candidateHash": "31fecf185848b506f5d6d690e23fa979b5f7f94b16d96e0aa7e397f57a56c246"
+  },
+  "previousHash": "2fdcc9346eef40cfe066ce424b6ddb029fa267f23e97ff2db585db971486b745",
+  "blockStatus": null,
+  "hash": "08238ba257e1df9c05ee07fce90e060effbe3e4ae1ba6a9179066169b8ef5ad3"
+},{
+  "_id": {
+    "$oid": "5fd1c16bcaa205edc09ef4b5"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:34:19.371Z"
+  },
+  "data": {
+    "voterHash": "40550ba8fa995b4fe517846c277bcfa7bfdf602ae7235f48cfdd890732d7985b",
+    "candidateHash": "31fecf185848b506f5d6d690e23fa979b5f7f94b16d96e0aa7e397f57a56c246"
+  },
+  "previousHash": "08238ba257e1df9c05ee07fce90e060effbe3e4ae1ba6a9179066169b8ef5ad3",
+  "blockStatus": null,
+  "hash": "052478f54e9a262f97e04fcf475eeabd81be706657e5de1337cb49a13632d0ec"
+},{
+  "_id": {
+    "$oid": "5fd1c183caa205edc09ef4b6"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:34:43.231Z"
+  },
+  "data": {
+    "voterHash": "febf1e68a29b38ea9c3262ca946183c32de622bec4717c6ff0d7998d474d0044",
+    "candidateHash": "ec852c1c577c4ccc4bf2e70e648d512bf0b78a31a6443a048210488f0d4c5c68"
+  },
+  "previousHash": "052478f54e9a262f97e04fcf475eeabd81be706657e5de1337cb49a13632d0ec",
+  "blockStatus": null,
+  "hash": "54a6d68e4a2e8dcb9a6d4874b94681c8643e1fe3b74c8dbf41d62ce582003199"
+},{
+  "_id": {
+    "$oid": "5fd1c198caa205edc09ef4b7"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:35:04.333Z"
+  },
+  "data": {
+    "voterHash": "eac7daf16fdf7058e2bc53406312c4a44711386cdfec2c5f3940863b5fdeddc9",
+    "candidateHash": "ec852c1c577c4ccc4bf2e70e648d512bf0b78a31a6443a048210488f0d4c5c68"
+  },
+  "previousHash": "54a6d68e4a2e8dcb9a6d4874b94681c8643e1fe3b74c8dbf41d62ce582003199",
+  "blockStatus": null,
+  "hash": "715a720e6a5b8ae7cadbd0cc7bd4b5da036b701154a95f0fd59f2de9080337cd"
+},{
+  "_id": {
+    "$oid": "5fd1c1b5caa205edc09ef4b8"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:35:33.153Z"
+  },
+  "data": {
+    "voterHash": "44a78fbe4ab6eec8910cad01be0170b06a91f911662d52571e552ad4dd10ff4c",
+    "candidateHash": "ec852c1c577c4ccc4bf2e70e648d512bf0b78a31a6443a048210488f0d4c5c68"
+  },
+  "previousHash": "715a720e6a5b8ae7cadbd0cc7bd4b5da036b701154a95f0fd59f2de9080337cd",
+  "blockStatus": null,
+  "hash": "8a22425f951b3d274dab8639d514221103a81af46da70bf925901c1180224086"
+},{
+  "_id": {
+    "$oid": "5fd1c1c6caa205edc09ef4b9"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:35:50.480Z"
+  },
+  "data": {
+    "voterHash": "eee0a75c6ef9ff05305a59ba72b12d633ed4cdd5d445b6a32ffc3798b125b4e9",
+    "candidateHash": "ec852c1c577c4ccc4bf2e70e648d512bf0b78a31a6443a048210488f0d4c5c68"
+  },
+  "previousHash": "8a22425f951b3d274dab8639d514221103a81af46da70bf925901c1180224086",
+  "blockStatus": null,
+  "hash": "7e03ec8513641c8a01607c33833e85086f5b67e4390a3f6f4534ca01889dd16a"
+},{
+  "_id": {
+    "$oid": "5fd1c1d8caa205edc09ef4ba"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:36:08.683Z"
+  },
+  "data": {
+    "voterHash": "e5930cb5486e5ae00a4ebf08f8bd6576cd094bf0ee5e656d1d334d8eabad0842",
+    "candidateHash": "ec852c1c577c4ccc4bf2e70e648d512bf0b78a31a6443a048210488f0d4c5c68"
+  },
+  "previousHash": "7e03ec8513641c8a01607c33833e85086f5b67e4390a3f6f4534ca01889dd16a",
+  "blockStatus": null,
+  "hash": "591816b033fc7d767bc365f39a0e212fabaef28b6b70d7b5ec16ef2c70309b6f"
+},{
+  "_id": {
+    "$oid": "5fd1c26ecaa205edc09ef4bb"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:38:38.910Z"
+  },
+  "data": {
+    "voterHash": "2eef351a20ea62fc14d163e315775e70ccc155c223e85e89dc16a3509a99dde3",
+    "candidateHash": "a7dadd91fe63d1ab85b7f66e6b241b3a20f60b2820213453e1f1e3f40a11508e"
+  },
+  "previousHash": "591816b033fc7d767bc365f39a0e212fabaef28b6b70d7b5ec16ef2c70309b6f",
+  "blockStatus": null,
+  "hash": "172bbd6241d33d96568936fa178ba66da02d5ef8224638f1cb4069fa45730776"
+},{
+  "_id": {
+    "$oid": "5fd1c285caa205edc09ef4bc"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:39:01.393Z"
+  },
+  "data": {
+    "voterHash": "45d47027e07ae0fa31a88246d3059377975236e72c6aa8094376b9a7de2f40a7",
+    "candidateHash": "a7dadd91fe63d1ab85b7f66e6b241b3a20f60b2820213453e1f1e3f40a11508e"
+  },
+  "previousHash": "172bbd6241d33d96568936fa178ba66da02d5ef8224638f1cb4069fa45730776",
+  "blockStatus": null,
+  "hash": "aad817615f62e9b8c4c49c9d5d370d4a9adeb1b4a43cc6826d85a25af5b224a3"
+},{
+  "_id": {
+    "$oid": "5fd1c2c3caa205edc09ef4bd"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:40:03.867Z"
+  },
+  "data": {
+    "voterHash": "50b038111b5a5f3c31718fd6d13b526f6e98734913f1f6403cea01b9ba892dc0",
+    "candidateHash": "80823f177724f8859cac0b45936740c38370ded55211b077bb0b0496ba031685"
+  },
+  "previousHash": "aad817615f62e9b8c4c49c9d5d370d4a9adeb1b4a43cc6826d85a25af5b224a3",
+  "blockStatus": null,
+  "hash": "6bd0b615ec7a2858a1fe09eb38fd84071530dd1f74ab357178a478c81f497c50"
+},{
+  "_id": {
+    "$oid": "5fd1c31acaa205edc09ef4be"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:41:30.741Z"
+  },
+  "data": {
+    "voterHash": "682dd9e491e84c1935c14e48453280fd4a11388203d3c101226db10df6428bc3",
+    "candidateHash": "80823f177724f8859cac0b45936740c38370ded55211b077bb0b0496ba031685"
+  },
+  "previousHash": "6bd0b615ec7a2858a1fe09eb38fd84071530dd1f74ab357178a478c81f497c50",
+  "blockStatus": null,
+  "hash": "a352a99f1cb8c039782dfa8d0783e344d7b53421e13ed40f886098120df77d97"
+},{
+  "_id": {
+    "$oid": "5fd1c336caa205edc09ef4bf"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:41:58.196Z"
+  },
+  "data": {
+    "voterHash": "844776a10410a510f9f2729101c18f40555566b2ece0659365e3f8f6847ab9ab",
+    "candidateHash": "20e24d7f7c4a17defb9f17cc1a1aa46f32dcf24433f9eb42828aa227c4db47b4"
+  },
+  "previousHash": "a352a99f1cb8c039782dfa8d0783e344d7b53421e13ed40f886098120df77d97",
+  "blockStatus": null,
+  "hash": "caf7c6e11013283a4694996eb15e3afd13e47cf3add85181dc5c9b3e20262035"
+},{
+  "_id": {
+    "$oid": "5fd1c3a2caa205edc09ef4c1"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:43:46.763Z"
+  },
+  "data": {
+    "voterHash": "865d4e5cffd0e894f70160bcaa44c3213488fdf2a620cfe83b4a07e7f9438693",
+    "candidateHash": "8c3058fb21c8de9bbf32c9c0f460071734f1b84de2ff529416aec829f12b3ae4"
+  },
+  "previousHash": "caf7c6e11013283a4694996eb15e3afd13e47cf3add85181dc5c9b3e20262035",
+  "blockStatus": null,
+  "hash": "b7d1a1d3ad1fd857795c32cb3f09202c48229e04965ff6a435d383cc4da10c68"
+},{
+  "_id": {
+    "$oid": "5fd1c3b9caa205edc09ef4c2"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:44:09.113Z"
+  },
+  "data": {
+    "voterHash": "5231ccedee786d8054cd62484636bf4969dcdb106037f023043a5b353581f30b",
+    "candidateHash": "8c3058fb21c8de9bbf32c9c0f460071734f1b84de2ff529416aec829f12b3ae4"
+  },
+  "previousHash": "b7d1a1d3ad1fd857795c32cb3f09202c48229e04965ff6a435d383cc4da10c68",
+  "blockStatus": null,
+  "hash": "3843eaccbdc1c436fa6675cd4596f29a31cd5b1af25772d2f24efceb1b887418"
+},{
+  "_id": {
+    "$oid": "5fd1c3cfcaa205edc09ef4c3"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:44:31.602Z"
+  },
+  "data": {
+    "voterHash": "3febc7a716822a2898a24ec5812ce9107eb41206d4e1dadcbae08b6dfa749deb",
+    "candidateHash": "8c3058fb21c8de9bbf32c9c0f460071734f1b84de2ff529416aec829f12b3ae4"
+  },
+  "previousHash": "3843eaccbdc1c436fa6675cd4596f29a31cd5b1af25772d2f24efceb1b887418",
+  "blockStatus": null,
+  "hash": "e3c4073efca7ab5fb5e842bf74dc9eb21455a64d5df1aa927bd5537ffdd7d97c"
+},{
+  "_id": {
+    "$oid": "5fd1c3e3caa205edc09ef4c4"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:44:51.305Z"
+  },
+  "data": {
+    "voterHash": "340917666f581235a0a702ebae7258468069f4cb9d2766fc10da1b714c34d06e",
+    "candidateHash": "8c3058fb21c8de9bbf32c9c0f460071734f1b84de2ff529416aec829f12b3ae4"
+  },
+  "previousHash": "e3c4073efca7ab5fb5e842bf74dc9eb21455a64d5df1aa927bd5537ffdd7d97c",
+  "blockStatus": null,
+  "hash": "d2201a693a9673c1458ef908d9f4b971d39c989725ff51b098db3b86b857fd08"
+},{
+  "_id": {
+    "$oid": "5fd1c3f9caa205edc09ef4c5"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:45:13.810Z"
+  },
+  "data": {
+    "voterHash": "ce0719aace2dc2b7d5cd1682404d668ae768d6ac52603fbc730d47f79a40c0dd",
+    "candidateHash": "8c3058fb21c8de9bbf32c9c0f460071734f1b84de2ff529416aec829f12b3ae4"
+  },
+  "previousHash": "d2201a693a9673c1458ef908d9f4b971d39c989725ff51b098db3b86b857fd08",
+  "blockStatus": null,
+  "hash": "1bc6dbc8025d220ecacac84dcee28eade7e7ee8d8234e3fd88c58008e9e67afb"
+},{
+  "_id": {
+    "$oid": "5fd1c415caa205edc09ef4c6"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:45:41.890Z"
+  },
+  "data": {
+    "voterHash": "f9f8f9be8c59947a929611e5189cd2fa0c65894b4e699eae64aa52e0007f7d16",
+    "candidateHash": "20e24d7f7c4a17defb9f17cc1a1aa46f32dcf24433f9eb42828aa227c4db47b4"
+  },
+  "previousHash": "1bc6dbc8025d220ecacac84dcee28eade7e7ee8d8234e3fd88c58008e9e67afb",
+  "blockStatus": null,
+  "hash": "da02e796a39e037ddcdd3e74d0eaf3a50eb377901f3709ab6e826f4b4768d2cf"
+},{
+  "_id": {
+    "$oid": "5fd1c505caa205edc09ef4c7"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:49:41.993Z"
+  },
+  "data": {
+    "voterHash": "6cdb4a79aed6c1f907f882ef171b7dfe5329d3fa15841b1d589cb859f325ab9a",
+    "candidateHash": "85e36ee3ae0acaa2e55aba37034c74943730981ca0d6635f39df60851b5dcbfb"
+  },
+  "previousHash": "da02e796a39e037ddcdd3e74d0eaf3a50eb377901f3709ab6e826f4b4768d2cf",
+  "blockStatus": null,
+  "hash": "81e9c4e3f4b7e108f61f5c18b4aab64c9654a6256207df5376dc5ada68cef1f3"
+},{
+  "_id": {
+    "$oid": "5fd1c519caa205edc09ef4c8"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:50:01.705Z"
+  },
+  "data": {
+    "voterHash": "bc66ba96fc19130c8e3a76ff70b42554a76d54861f849fb7cdbf28ce01513ec1",
+    "candidateHash": "32c8e763fd6c01f96a1174f7808a68069063d25812c4158be56e4bbc2ba365cd"
+  },
+  "previousHash": "81e9c4e3f4b7e108f61f5c18b4aab64c9654a6256207df5376dc5ada68cef1f3",
+  "blockStatus": null,
+  "hash": "13dce4d71ca8e0a37f452cfeba0118a3cebe16366fc8963c101712a48849442b"
+},{
+  "_id": {
+    "$oid": "5fd1c52ccaa205edc09ef4c9"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:50:20.854Z"
+  },
+  "data": {
+    "voterHash": "0e5ba612f8f66dee48e6cf2e82113f5daa5cd9d52a8484616503e1fa44fdaf0a",
+    "candidateHash": "32c8e763fd6c01f96a1174f7808a68069063d25812c4158be56e4bbc2ba365cd"
+  },
+  "previousHash": "13dce4d71ca8e0a37f452cfeba0118a3cebe16366fc8963c101712a48849442b",
+  "blockStatus": null,
+  "hash": "0bd05d2f0b420249ce840627d0adb20752738f5a5f8ce7e827aee597888284d8"
+},{
+  "_id": {
+    "$oid": "5fd1c541caa205edc09ef4ca"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:50:41.281Z"
+  },
+  "data": {
+    "voterHash": "198984275347f9623af517eaee631de559655fa6afbac76f7b177630c817517a",
+    "candidateHash": "4611b82c0d41cf5578f7d1ca6b724dbb73806977aa8a6be0d43252d61e6a4636"
+  },
+  "previousHash": "0bd05d2f0b420249ce840627d0adb20752738f5a5f8ce7e827aee597888284d8",
+  "blockStatus": null,
+  "hash": "f8ea80ae8acdac79efece3cec80cb7ffe28a3a5e4bad95ce8e15e23c31a5ff13"
+},{
+  "_id": {
+    "$oid": "5fd1c554caa205edc09ef4cb"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:51:00.646Z"
+  },
+  "data": {
+    "voterHash": "5b38f0cca649f4445543517e9b559cb9116ca32725e8f33e9eaab8252e8929f4",
+    "candidateHash": "4611b82c0d41cf5578f7d1ca6b724dbb73806977aa8a6be0d43252d61e6a4636"
+  },
+  "previousHash": "f8ea80ae8acdac79efece3cec80cb7ffe28a3a5e4bad95ce8e15e23c31a5ff13",
+  "blockStatus": null,
+  "hash": "20c9de533485065871d5a434438c4beb68867e4f559d6b6d66a710d0ebc24171"
+},{
+  "_id": {
+    "$oid": "5fd1c569caa205edc09ef4cc"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:51:21.151Z"
+  },
+  "data": {
+    "voterHash": "fc81ec39406dec5afbdaef0b59b7c0022a2e7048d7bf90a95c1f4fca16eac2dd",
+    "candidateHash": "4611b82c0d41cf5578f7d1ca6b724dbb73806977aa8a6be0d43252d61e6a4636"
+  },
+  "previousHash": "20c9de533485065871d5a434438c4beb68867e4f559d6b6d66a710d0ebc24171",
+  "blockStatus": null,
+  "hash": "61294270b4f3b9acc091b1f298a58e738b53d5c63284a972f203f7d8af086322"
+},{
+  "_id": {
+    "$oid": "5fd1c593caa205edc09ef4cd"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:52:03.289Z"
+  },
+  "data": {
+    "voterHash": "0d3a107b3710f92661dba116edeb0e59c7d56b2b5899855171cc55e30f7e8cf1",
+    "candidateHash": "768f653660c3f007e02d99a9308b3293d7a522993e7ca9af48c8dcba535c0ca6"
+  },
+  "previousHash": "61294270b4f3b9acc091b1f298a58e738b53d5c63284a972f203f7d8af086322",
+  "blockStatus": null,
+  "hash": "e94d4e3079ae63d805f89dc9914b6ec7de619d0f08ff90b75f9e096df715e905"
+},{
+  "_id": {
+    "$oid": "5fd1c5a6caa205edc09ef4ce"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:52:22.377Z"
+  },
+  "data": {
+    "voterHash": "b9e577c174134249fa399b8fc1146d02de4aaa73b69e69697ce2ffe9a0b65dd6",
+    "candidateHash": "d5aabaf3986e7d333465a2e372ad77bbf9ce55260b8afb0445ce739b81067c65"
+  },
+  "previousHash": "e94d4e3079ae63d805f89dc9914b6ec7de619d0f08ff90b75f9e096df715e905",
+  "blockStatus": null,
+  "hash": "b6fcfd57db889c5aa9f8dc651ce7948c387ea5b7af894d656240ab9bb1ad5d4f"
+},{
+  "_id": {
+    "$oid": "5fd1c6f6caa205edc09ef4cf"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:57:58.454Z"
+  },
+  "data": {
+    "voterHash": "c085b9e51bd5dfe60edc59ffab61e8dce0a569d832d2fb450d4988f7b7b56b65",
+    "candidateHash": "d5aabaf3986e7d333465a2e372ad77bbf9ce55260b8afb0445ce739b81067c65"
+  },
+  "previousHash": "b6fcfd57db889c5aa9f8dc651ce7948c387ea5b7af894d656240ab9bb1ad5d4f",
+  "blockStatus": null,
+  "hash": "9729cc448694a1a384eb8dd21ae57cd40a8a3de6bf6ad6199d4b4fa06b84a421"
+},{
+  "_id": {
+    "$oid": "5fd1c75ecaa205edc09ef4d0"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T06:59:42.407Z"
+  },
+  "data": {
+    "voterHash": "aa9c5e2a1a84cf91acc9539103a9d265a249ea69cba6b6cc8d440287d212984b",
+    "candidateHash": "7e7410c66652f50740b267c41c92be645eaf6aadf23ef59484a23aeca467c76a"
+  },
+  "previousHash": "9729cc448694a1a384eb8dd21ae57cd40a8a3de6bf6ad6199d4b4fa06b84a421",
+  "blockStatus": null,
+  "hash": "dad0c187630923d12bb3d71734310e7cebbc969971bb2781b6dfe9dd2c1da142"
+},{
+  "_id": {
+    "$oid": "5fd1c796caa205edc09ef4d1"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:00:38.151Z"
+  },
+  "data": {
+    "voterHash": "1cb428a1f9a766d89bedb92e3c543cbc89bd14b043a45cea3fbd54c6b904dedf",
+    "candidateHash": "7e7410c66652f50740b267c41c92be645eaf6aadf23ef59484a23aeca467c76a"
+  },
+  "previousHash": "dad0c187630923d12bb3d71734310e7cebbc969971bb2781b6dfe9dd2c1da142",
+  "blockStatus": null,
+  "hash": "0b021eb42737efef251b31211d3d30ab74830fe1554a910ec448c44b6e4dc03f"
+},{
+  "_id": {
+    "$oid": "5fd1c7aacaa205edc09ef4d2"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:00:58.644Z"
+  },
+  "data": {
+    "voterHash": "4d37fa91aee53fb17124b56019ed2c567a65bc0fc76341ab8ab3ce6f4e9a2307",
+    "candidateHash": "7e7410c66652f50740b267c41c92be645eaf6aadf23ef59484a23aeca467c76a"
+  },
+  "previousHash": "0b021eb42737efef251b31211d3d30ab74830fe1554a910ec448c44b6e4dc03f",
+  "blockStatus": null,
+  "hash": "2660e01646a9b2d8eac6e204490627d88c2f2a18b2c149954da9ff9976a71b93"
+},{
+  "_id": {
+    "$oid": "5fd1d1b3f9509e9c04052081"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:43:47.286Z"
+  },
+  "data": {
+    "voterHash": "cdb9e4c27c6f344dfe4d8d5691cf3d96bc5590ce612ff1ba88e0e306115acc0c",
+    "candidateHash": "0f062f1e0d7bef00516fd4944a480acc20105d854a5539006063e4b1e9e2f3c1"
+  },
+  "previousHash": "2660e01646a9b2d8eac6e204490627d88c2f2a18b2c149954da9ff9976a71b93",
+  "blockStatus": null,
+  "hash": "af4fba5eb38ca82dca08e334e50b9ed6c629ddaa55dbc962ca22ab243492cd10"
+},{
+  "_id": {
+    "$oid": "5fd1d1c9f9509e9c04052082"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:44:09.132Z"
+  },
+  "data": {
+    "voterHash": "8c2a79c719f85aa267a4a638dce96cca9813e51f719b109b8203065ae5f588e4",
+    "candidateHash": "b0ab318e8c6dbb6511b20816b4a80b6d2c70e879bde629a45bd2f49f509e6293"
+  },
+  "previousHash": "af4fba5eb38ca82dca08e334e50b9ed6c629ddaa55dbc962ca22ab243492cd10",
+  "blockStatus": null,
+  "hash": "b31c8769d5de9fb2f109473b511b67f9d8e39a95bd666d88458961d6ad8960c8"
+},{
+  "_id": {
+    "$oid": "5fd1d1dbf9509e9c04052083"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:44:27.807Z"
+  },
+  "data": {
+    "voterHash": "4aed050d5b928ad9ccde2906172fc2802553c5135a32443ff2bd7bb4208488b1",
+    "candidateHash": "925195205777bacb641b8eb7ee6b99f37c96247cf6f3022a033614b1decacee2"
+  },
+  "previousHash": "b31c8769d5de9fb2f109473b511b67f9d8e39a95bd666d88458961d6ad8960c8",
+  "blockStatus": null,
+  "hash": "296cd17e1c8057617ecdce070ef9d400827ad5b282e23c953aed1e10549ad1d4"
+},{
+  "_id": {
+    "$oid": "5fd1d1f0f9509e9c04052084"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:44:48.183Z"
+  },
+  "data": {
+    "voterHash": "b5a249935ccf8e0de8a793ce2357d2bb942c82671cdd8e183b818f91c91b7cad",
+    "candidateHash": "b0ab318e8c6dbb6511b20816b4a80b6d2c70e879bde629a45bd2f49f509e6293"
+  },
+  "previousHash": "296cd17e1c8057617ecdce070ef9d400827ad5b282e23c953aed1e10549ad1d4",
+  "blockStatus": null,
+  "hash": "5bc514f9d33b9e3ac2005335c5ecebda0ac46b39d6b19af29023ac5726c363da"
+},{
+  "_id": {
+    "$oid": "5fd1d204f9509e9c04052085"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:45:08.075Z"
+  },
+  "data": {
+    "voterHash": "4353fc36da84911e3f31b3f44530399922b84fc95b92058a0adeb9717def8dd0",
+    "candidateHash": "9a2f6d42ad9a46c912ec8b9fc814cb49b48ba65fbf5851f10c16d958449b85d8"
+  },
+  "previousHash": "5bc514f9d33b9e3ac2005335c5ecebda0ac46b39d6b19af29023ac5726c363da",
+  "blockStatus": null,
+  "hash": "df12f677372402a9a328988d2c0267d5467bddcd63c1d99dc3d9538f8f43f915"
+},{
+  "_id": {
+    "$oid": "5fd1d215f9509e9c04052086"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:45:25.570Z"
+  },
+  "data": {
+    "voterHash": "da0fe7dc7145e4b3fedc86310df8e8ea898104fb8d19027ccdf4b6c3e3b47d5d",
+    "candidateHash": "72d6845884b76dfa74a38de2498a02fd29813b6140c563b3f54a38e6cfd9a397"
+  },
+  "previousHash": "df12f677372402a9a328988d2c0267d5467bddcd63c1d99dc3d9538f8f43f915",
+  "blockStatus": null,
+  "hash": "579d993d7e140324932fc4b0f3662eab1f3ddc9741aff39f2492c442c6cb63da"
+},{
+  "_id": {
+    "$oid": "5fd1d228f9509e9c04052087"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:45:44.896Z"
+  },
+  "data": {
+    "voterHash": "37c78b35b679edbd81f19cc3cb98b2fc5c4a2f7f6d3e6fd79c52ece56f5569dd",
+    "candidateHash": "55e6f0028cc4d9e542fb91135556f371f97dda6a59d2763dd9ed7dde7375228a"
+  },
+  "previousHash": "579d993d7e140324932fc4b0f3662eab1f3ddc9741aff39f2492c442c6cb63da",
+  "blockStatus": null,
+  "hash": "4aac3a1a345dea87b19d5ff8a76a23b2a4981fdfd0ea32e5ea342bceadc42b64"
+},{
+  "_id": {
+    "$oid": "5fd1d240f9509e9c04052088"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:46:08.609Z"
+  },
+  "data": {
+    "voterHash": "9ba52fc4cac1819e954fb44d0b47bcd96ac4d08c45f4026f924e709268bda2ca",
+    "candidateHash": "9a2f6d42ad9a46c912ec8b9fc814cb49b48ba65fbf5851f10c16d958449b85d8"
+  },
+  "previousHash": "4aac3a1a345dea87b19d5ff8a76a23b2a4981fdfd0ea32e5ea342bceadc42b64",
+  "blockStatus": null,
+  "hash": "516774ea6426cd9f7f9f125f59b40a56919419e8e0ebdba1d40a70a89404fff7"
+},{
+  "_id": {
+    "$oid": "5fd1d25df9509e9c04052089"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:46:37.190Z"
+  },
+  "data": {
+    "voterHash": "d07c160398269e00f64893538bd73164ce4e1ff23224854364af96939b343ce4",
+    "candidateHash": "0cf487d11020f41c41b107cf5ff2bc6ba99117fa556254fb4187d3d759f5a328"
+  },
+  "previousHash": "516774ea6426cd9f7f9f125f59b40a56919419e8e0ebdba1d40a70a89404fff7",
+  "blockStatus": null,
+  "hash": "1f5c09306aa8f6846e7713e02bd30ced04aef64d17426a14f19d9374a7c71f51"
+},{
+  "_id": {
+    "$oid": "5fd1d26ef9509e9c0405208a"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:46:54.578Z"
+  },
+  "data": {
+    "voterHash": "c224ee2298e80dc651aea4b81c2666cd7ff9b863d38fef7def27d1d2099c9d47",
+    "candidateHash": "8380b087458f9f978252bdee3b02d96498c46b2257502301b6dd568a1d60395c"
+  },
+  "previousHash": "1f5c09306aa8f6846e7713e02bd30ced04aef64d17426a14f19d9374a7c71f51",
+  "blockStatus": null,
+  "hash": "856df7e8457cd1a8efc5acde5dee5105ea7e58c484a3a5cbe5b799f30f149cd3"
+},{
+  "_id": {
+    "$oid": "5fd1d27cf9509e9c0405208b"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:47:08.632Z"
+  },
+  "data": {
+    "voterHash": "bd298bf5b90c7d27e871d87ba7beaa4bcb4e948584dcafe80e887966eb7fbe26",
+    "candidateHash": "8380b087458f9f978252bdee3b02d96498c46b2257502301b6dd568a1d60395c"
+  },
+  "previousHash": "856df7e8457cd1a8efc5acde5dee5105ea7e58c484a3a5cbe5b799f30f149cd3",
+  "blockStatus": null,
+  "hash": "0547bb3983c9ef8d21fc92febcd451723c586920814a7c16ef81021cea4f5785"
+},{
+  "_id": {
+    "$oid": "5fd1d28df9509e9c0405208c"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:47:25.650Z"
+  },
+  "data": {
+    "voterHash": "c6c7f389849b56f7b18a16756cb7a719299f3cda5193c01860c5ff4bd15c04f9",
+    "candidateHash": "5e2c3c53bcafc6cea0fbbd82043d4ea3d9a0d3161ef1134a100187ac5c8b6ef4"
+  },
+  "previousHash": "0547bb3983c9ef8d21fc92febcd451723c586920814a7c16ef81021cea4f5785",
+  "blockStatus": null,
+  "hash": "af5aad3e7b3655fea8d6f7cb5c96c6a37f76a08157d11d0fd3224c547b74de89"
+},{
+  "_id": {
+    "$oid": "5fd1d3eef9509e9c0405208d"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:53:18.672Z"
+  },
+  "data": {
+    "voterHash": "6f37ecc6ca0e9f0bc6ab7bef959f680012c0d346d964bd357310cbfd678a3794",
+    "candidateHash": "21d48e8394f2b6c7b78c6489615e513e84c56833375aeae2eaeaae1c0ea0d4d9"
+  },
+  "previousHash": "af5aad3e7b3655fea8d6f7cb5c96c6a37f76a08157d11d0fd3224c547b74de89",
+  "blockStatus": null,
+  "hash": "cb043315a027cc87b3135895f89ca0267c422a5e57bdcf2c37bc8ac813e0c26f"
+},{
+  "_id": {
+    "$oid": "5fd1d3fef9509e9c0405208e"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:53:34.160Z"
+  },
+  "data": {
+    "voterHash": "48eb1226dde58cd66b0865fffffabe73f27744adcf09a61090cd7092d6bec2ed",
+    "candidateHash": "1d60de3eb6a6ff50afae5c2451f915203b8f5886fa2da5d62a4e6840936b109b"
+  },
+  "previousHash": "cb043315a027cc87b3135895f89ca0267c422a5e57bdcf2c37bc8ac813e0c26f",
+  "blockStatus": null,
+  "hash": "789f7bf9c8e509e04a837f1b9ce51755874e0748da06a56a47eecdc42fa2bc4a"
+},{
+  "_id": {
+    "$oid": "5fd1d40ff9509e9c0405208f"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:53:51.183Z"
+  },
+  "data": {
+    "voterHash": "3c545391323bbc44c69d669ea7c6276f7b79b7073427dd384a1fc79d48231431",
+    "candidateHash": "9e7a42c09ec9c7563da90f5d43acf009bedd6ede8bcd015dcdbc2e1267b8aa10"
+  },
+  "previousHash": "789f7bf9c8e509e04a837f1b9ce51755874e0748da06a56a47eecdc42fa2bc4a",
+  "blockStatus": null,
+  "hash": "4a83c3b0cb2867ea6db3c4bc94bd2c9bd7c46205a7f304f4a47daef7abc4ef7a"
+},{
+  "_id": {
+    "$oid": "5fd1d420f9509e9c04052090"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:54:08.213Z"
+  },
+  "data": {
+    "voterHash": "fdd73ed0ca7d7df54c3b742ff4cb213476e533eb1a68dcd985b2d26ab5baeed8",
+    "candidateHash": "9e7a42c09ec9c7563da90f5d43acf009bedd6ede8bcd015dcdbc2e1267b8aa10"
+  },
+  "previousHash": "4a83c3b0cb2867ea6db3c4bc94bd2c9bd7c46205a7f304f4a47daef7abc4ef7a",
+  "blockStatus": null,
+  "hash": "9939cd1f1ba7a5b0a41b6e6ecb093daa3ceb54b811a5671407193072187e50ee"
+},{
+  "_id": {
+    "$oid": "5fd1d431f9509e9c04052091"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:54:25.567Z"
+  },
+  "data": {
+    "voterHash": "78de660d4b42c228bb7e7b6509beac29c945c7755f8485e686ddb3739cdab315",
+    "candidateHash": "5691feecc3db7970e66df29889983d1296566ff31b0f3561082cbc6220935957"
+  },
+  "previousHash": "9939cd1f1ba7a5b0a41b6e6ecb093daa3ceb54b811a5671407193072187e50ee",
+  "blockStatus": null,
+  "hash": "7d0cfbf588076517bdbca043f7642334b3d8c3ce13aa382d6448a83924a83d17"
+},{
+  "_id": {
+    "$oid": "5fd1d441f9509e9c04052092"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:54:41.465Z"
+  },
+  "data": {
+    "voterHash": "ba88bc2e3218ce285b66b608530024a3e8fbee0f5e879ca2924e8970dbbe63fa",
+    "candidateHash": "5691feecc3db7970e66df29889983d1296566ff31b0f3561082cbc6220935957"
+  },
+  "previousHash": "7d0cfbf588076517bdbca043f7642334b3d8c3ce13aa382d6448a83924a83d17",
+  "blockStatus": null,
+  "hash": "0bbac621efe86033595598569430158fcc6f1e5a07f408d700f6d37f41aabb19"
+},{
+  "_id": {
+    "$oid": "5fd1d451f9509e9c04052093"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:54:57.729Z"
+  },
+  "data": {
+    "voterHash": "112243724192278548b265aecb2eae0214d94179f621a1bb7d93040ab033d8bc",
+    "candidateHash": "7faa41d0bade5781b2316f645916a22bd2b3281aa4e953b17efb77001157df27"
+  },
+  "previousHash": "0bbac621efe86033595598569430158fcc6f1e5a07f408d700f6d37f41aabb19",
+  "blockStatus": null,
+  "hash": "cdc808f97ecf857041b51e2e9a704d4def8919015b31e36fba1af15a0316d88b"
+},{
+  "_id": {
+    "$oid": "5fd1d464f9509e9c04052094"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:55:16.450Z"
+  },
+  "data": {
+    "voterHash": "42d2df2f6c78e823460c860ed28e3ac5a6fdecf434f34d7d89f7e9b35ad4cedb",
+    "candidateHash": "7635e8642ded9bdd2bc6034f738f27b9d3dec7551d39d72085db49ac6941d624"
+  },
+  "previousHash": "cdc808f97ecf857041b51e2e9a704d4def8919015b31e36fba1af15a0316d88b",
+  "blockStatus": null,
+  "hash": "dba95c856eea979e8e00149147cceb59cd4baa28ac2d1c36324c5c9d51a43a2c"
+},{
+  "_id": {
+    "$oid": "5fd1d486f9509e9c04052095"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:55:50.351Z"
+  },
+  "data": {
+    "voterHash": "e9a34da41dbca19071488d4749132ea13b7f1e8a9ba1dbdd77043414662495ff",
+    "candidateHash": "53b2135081e4dfd2d2dc23cadf9ba28f855d2b7e5a8cd8b7c33040f5ea380a9f"
+  },
+  "previousHash": "dba95c856eea979e8e00149147cceb59cd4baa28ac2d1c36324c5c9d51a43a2c",
+  "blockStatus": null,
+  "hash": "ef69cbca6d479b5e306b891afb512864b10f146f86b646f12811c1325070a1a9"
+},{
+  "_id": {
+    "$oid": "5fd1d495f9509e9c04052096"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:56:05.843Z"
+  },
+  "data": {
+    "voterHash": "8d6a1ffe705dd362ad00e831699742c6f99a3c1b4f8f6324e0976c16beeee64d",
+    "candidateHash": "0aaf806e1a95194c9ea6874bbd498e4744715c29807dc984c5166928e0437d20"
+  },
+  "previousHash": "ef69cbca6d479b5e306b891afb512864b10f146f86b646f12811c1325070a1a9",
+  "blockStatus": null,
+  "hash": "cc8cedb9a269e93d4551bf8c8d6d8362a548ce92776cfcf9d9b3c4a34ef4befd"
+},{
+  "_id": {
+    "$oid": "5fd1d4a6f9509e9c04052097"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:56:22.661Z"
+  },
+  "data": {
+    "voterHash": "f55432b8d5269fdf3143ff0dad64b2b6945bfd7768b8a9a66d491ea80985d5d6",
+    "candidateHash": "0aaf806e1a95194c9ea6874bbd498e4744715c29807dc984c5166928e0437d20"
+  },
+  "previousHash": "cc8cedb9a269e93d4551bf8c8d6d8362a548ce92776cfcf9d9b3c4a34ef4befd",
+  "blockStatus": null,
+  "hash": "329378c09adb6a81401b6f7db8863004aaca9851873b48de877d985b92a2f466"
+},{
+  "_id": {
+    "$oid": "5fd1d4b5f9509e9c04052098"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:56:37.352Z"
+  },
+  "data": {
+    "voterHash": "f3bb7e25a3411418c0465f4f3ccc43c855d63a0df32fa1a9863178c7101fada5",
+    "candidateHash": "828233092df0576327d596b02001e84cbd8efc10ffaabea9bb78626a2a371c1e"
+  },
+  "previousHash": "329378c09adb6a81401b6f7db8863004aaca9851873b48de877d985b92a2f466",
+  "blockStatus": null,
+  "hash": "4bbe048285c90a5ff285ff51cfa9f9597c276ad5a167bae6fa3de289912d7f57"
+},{
+  "_id": {
+    "$oid": "5fd1d4c6f9509e9c04052099"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:56:54.415Z"
+  },
+  "data": {
+    "voterHash": "c4f81f59d53dbe5b3797ae14e416a24d6cb7c4ebf9e00235fb16d9decb9a2a69",
+    "candidateHash": "8d3afaf59329d43859836c8f503b56bc79a9f324f28331b387aaecd54706daed"
+  },
+  "previousHash": "4bbe048285c90a5ff285ff51cfa9f9597c276ad5a167bae6fa3de289912d7f57",
+  "blockStatus": null,
+  "hash": "70777faca18b317c82772255ba1b3b3242491445b5d03e11ea1153ed08178a46"
+},{
+  "_id": {
+    "$oid": "5fd1d4d7f9509e9c0405209a"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:57:11.816Z"
+  },
+  "data": {
+    "voterHash": "6cfbe2037feee6b8a1272cdc6b22826130c015fafb89562845a1ba0da9693d57",
+    "candidateHash": "8d3afaf59329d43859836c8f503b56bc79a9f324f28331b387aaecd54706daed"
+  },
+  "previousHash": "70777faca18b317c82772255ba1b3b3242491445b5d03e11ea1153ed08178a46",
+  "blockStatus": null,
+  "hash": "a96f42f295ed2f41c3cc7c8f2a57c0cd99d1cc24008d0262d969c82ac13796c5"
+},{
+  "_id": {
+    "$oid": "5fd1d4e8f9509e9c0405209b"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:57:28.202Z"
+  },
+  "data": {
+    "voterHash": "dcc9462ef411a6585f0528cfd90284295f1e91b951976f11a453eb1e0d13978e",
+    "candidateHash": "48a13669e7c714b80af1c0d53f67df2b20aaf4f24ffe1a8241c1e22db4dd234c"
+  },
+  "previousHash": "a96f42f295ed2f41c3cc7c8f2a57c0cd99d1cc24008d0262d969c82ac13796c5",
+  "blockStatus": null,
+  "hash": "4eca46245d16d462a776ff21d6e805aec21a7b6a661b50fcad4cc772391b1281"
+},{
+  "_id": {
+    "$oid": "5fd1d4f8f9509e9c0405209c"
+  },
+  "timestamp": {
+    "$date": "2020-12-10T07:57:44.726Z"
+  },
+  "data": {
+    "voterHash": "9bb509a22ede06fd7dd078137ad6fe7f3f86f61d087f6eef046649aa31f92495",
+    "candidateHash": "1a0db4572d35c8b2af64bb9db534af0823e22f25bdc0fa7541d4288e1d4eb8f0"
+  },
+  "previousHash": "4eca46245d16d462a776ff21d6e805aec21a7b6a661b50fcad4cc772391b1281",
+  "blockStatus": null,
+  "hash": "9a2e8c3ad8048daebed31606b1fc07f10a3ad02c4a23639705a73798f392c368"
+}]

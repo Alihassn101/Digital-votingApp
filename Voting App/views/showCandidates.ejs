@@ -1,0 +1,74 @@
+<%- include ('partials/authorityheader') %>
+
+<div class="container bg-white">
+  <h2>Candidates List</h2>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Icon</th>
+        <th>Name</th>
+        <th>CNIC</th>
+        <th>Contact</th>
+        <th>Party</th>
+        <th>Area</th>
+        <!-- <th>Hash</th> -->
+        <!-- <th></th> -->
+      </tr>
+    </thead>
+    <tbody>
+      <%for(var i=start;i<end;i++){%>
+      <tr>
+        <td><%=i%></td>
+        <td><img src="<%=data[i].data.Icon%>" alt="" width="50px"></td>
+        <td><%=data[i].data.Name%></td>
+        <td><%=data[i].data.CNIC%></td>
+        <td><%=data[i].data.Contact%></td>
+        <td><%=data[i].data.PartyName%></td>
+        <td><%=data[i].data["AREA CODE"]%></td>
+        <!-- <td><%=data[i].hash%></td> -->
+        <!-- <td><a href="#">Edit</a></td> -->
+      </tr>
+      <%}%>
+
+      
+    </tbody>
+  </table>
+
+  <div class="container">
+    <% if (totalPages > 0) { %>
+        <ul class="pagination ">
+            <% if (current == 1) { %>
+                <li class="page-item page-link disabled bg-dark"><a>First</a></li>
+            <% } else { %>
+                <li class="page-item page-link"><a href="/showCandidates/1">First</a></li>
+            <% } %>
+            <% var i = (Number(current) > 5 ? Number(current) - 4 : 1) %>
+    
+            <% if (i !== 1) { %>
+                <li class="page-item page-link disabled bg-dark"><a>...</a></li>
+            <% } %>
+            <% for (; i <= (Number(current) + 4) && i <= totalPages; i++) { %>
+                <% if (i == current) { %>
+                    <li class="page-item page-link active bg-dark"><a><%= i %></a></li>
+                <% } else { %>
+                    <li class="page-item page-link"><a href="/showCandidates/<%= i %>"><%= i %></a></li>
+                <% } %>
+                <% if (i == Number(current) + 4 && i < totalPages) { %>
+                    <li class="page-item page-link disabled bg-dark"><a>...</a></li>
+                <% } %>
+            <% } %>
+            <% if (current == totalPages) { %>
+                <li class="page-item page-link disabled bg-dark"><a>Last</a></li>
+            <% } else { %>
+                <li class="page-item page-link"><a href="/showCandidates/<%= totalPages %>">Last</a></li>
+            <% } %>
+        </ul>
+    <% } %>
+    </div>
+</div>
+
+
+
+
+<%- include ('partials/footer') %>

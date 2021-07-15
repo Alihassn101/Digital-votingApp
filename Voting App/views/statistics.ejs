@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/bootstrap.css">
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="form.css">
+
+    <script>
+      window.onload = function() {
+        $('#Province').hide();
+        $('#City').hide();
+        $('#Area').hide();
+        <%if (EachTotalseats.length==0){%>
+          $("#chartPartiesSeats").hide();
+          $("#chartPartiesSeatsheading").hide();
+          $("#chartPartiesSeatsheadinghr").hide();
+        <%}%>
+      var chart = new CanvasJS.Chart("chartContainer", {
+          theme: "light2", // "light1", "light2", "dark1", "dark2"
+          exportEnabled: true,
+          animationEnabled: true,
+          title: {
+              text: "Total Votes Of Each Party"
+          },
+          data: [{
+              type: "pie",
+              startAngle: 25,
+            //   toolTipContent: "<b>{label}</b>: {y}%",
+              showInLegend: "true",
+              legendText: "{label}",
+              indexLabelFontSize: 16,
+              indexLabel: "{label} - {y}%",
+              dataPoints: [
+                <%for(var i=0;i<EachTotalVotesPercentage.length;i++){%>
+                  { y: <%=EachTotalVotesPercentage[i]%>, label: "<%=partyNames[i].toString()%>"+" "+"(<%=EachTotalVotes[i].toString()%>)" },
+                <%}%>
+                 
+              ]
+          }]
+      });
+
+
+      var chartVoter = new CanvasJS.Chart("chartVoters", {
+          theme: "light2", // "light1", "light2", "dark1", "dark2"
+          exportEnabled: true,
+          animationEnabled: true,
+          title: {
+              text: "Uncasted Votes & Casted Votes"
+          },
+          data: [{
+              type: "pie",
+              startAngle: 25,
+            //   toolTipContent: "<b>{label}</b>: {y}%",
+              showInLegend: "true",
+              legendText: "{label}",
+              indexLabelFontSize: 16,
+              indexLabel: "{label}",
+              dataPoints: [
+
+                { y: <%=AllUnCastedVotes%>, label: "Uncasted Votes"+" "+"(<%=AllUnCastedVotes%>)" },
+                { y: <%=AllCastedVotes%>, label: "Casted Votes"+" "+"(<%=AllCastedVotes%>)" },
+
+                 
+              ]
+          }]
+      });
+
+      var chartPartiesSeats = new CanvasJS.Chart("chartPartiesSeats", {
+          theme: "light2", // "light1", "light2", "dark1", "dark2"
+          exportEnabled: true,
+          animationEnabled: true,
+          title: {
+              text: "Each Party leading Area"
+          },
+          data: [{
+              type: "pie",
+              startAngle: 25,
+            //   toolTipContent: "<b>{label}</b>: {y}%",
+              showInLegend: "true",
+              legendText: "{label}",
+              indexLabelFontSize: 16,
+              indexLabel: "{label}",
+              dataPoints: [
+
+              <%for(var i=0;i<EachTotalseats.length;i++){%>
+                  { y: <%=EachTotalseats[i]%>, label: "<%=partyNames[i].toString()%>"+" "+"(<%=EachTotalseats[i].toString()%>)" },
+                <%}%>
+                 
+              ]
+          }]
+      });
+
+
+      chart.render();
+      chartVoter.render();
+      chartPartiesSeats.render();
+      }
+      </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark pl-4">
+     
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+         
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <section class="form my-4 mx-5">
+        
+        <div class="container">
+            
+            <div class="row no-gutters">
+                <div class="col-lg-7 px-1 my-3 py-5 mx-auto">
+                    <div class="form-row justify-content-center">
+                        <div class="col-md-8 "  >
+                            <select name="Levelselector" id="Levelselector" class="browser-default custom-select my-2" placeholder="Province">
+                                <option value="None">Country Level</option>
+                                <option value="Province">Province Level</option>
+                                <option value="City">City Level</option>
+                                <option value="Area">Area Level</option>
+                            </select>
+                        </div>
+                        <form action="/showstatistics" method="POST">
+                            
+                            <div class="row col-12 ">
+                                
+                                <div class="col-md-8 " id="Province" >
+                                    <select name="Province"   class="browser-default custom-select my-2" placeholder="Province">
+                                        <option value="None">Select Province</option>
+                                        <option value="Punjab">Punjab</option>
+                                        <option value="Balochistan">Balochistan</option>
+                                        <option value="Sindh">Sindh</option>
+                                        <option value="KPK">KPK</option>
+                                        <option value="Federal">Federal</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-8" id="City" >
+                                    <select name="City"  class="browser-default custom-select my-2" placeholder="City">
+                                        <option value="None">Select City</option>
+                                        <%for(var i=0;i<cities.length;i++){%>
+                                          <option value="<%=cities[i]%>"><%=cities[i]%></option>
+                                        <%}%>
+                                        
+                                    </select>
+                                </div>
+                                <div class="col-md-8" id="Area" >
+                                    <select name="AREA CODE" class="browser-default custom-select my-2" placeholder="City">
+                                        <option value="None">Select Area</option>
+                                        <%for(var i=0;i<AreaList.length;i++){%>
+                                          <option value="<%=AreaList[i]%>"><%=AreaList[i]%></option>
+                                        <%}%>
+                                    </select>
+                                </div>
+                                <div class="col-md-4 pt-2 " style="text-align: center;">
+                                    <input class="btn btn-primary" type="submit" value="Reset">
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                    <h1 class="font-weight-bold py-3 text-center"><%=msg%></h1>
+                    <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+                    <hr id ="chartPartiesSeatsheadinghr">
+                    <h1 id ="chartPartiesSeatsheading" class="font-weight-bold py-3 text-center">Parties Status</h1>
+                    <div id="chartPartiesSeats" style="height: 300px; width: 100%;"></div>
+                    <hr>
+                    <h1 class="font-weight-bold py-3 text-center">Polling Status</h1>
+                    <div id="chartVoters" style="height: 300px; width: 100%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+<script>
+$(function() {
+  $('#Levelselector').change(function(){
+    $('#Province').hide();
+    $('#City').hide();
+    $('#Area').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
+</script>
+
+<%- include ('partials/footer') %>
+
+
+

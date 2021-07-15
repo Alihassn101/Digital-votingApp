@@ -1,0 +1,204 @@
+<%- include ('partials/authorityheader') %>
+
+<!-- <div class="col-md-8 mx-auto my-5">
+  <h1>Add Candidate In Polling: <%= msg %> </h1>
+  <form action="/createCandidate" method="post">
+    <div class="form-group">
+      <label >Polling Name</label>
+      <input type="text" name="blockChainName" value="<%=bcName%>" class="form-control"placeholder="Enter Polling Name" readonly>
+    </div>
+    <div class="form-group">
+      <label >Canidate Name</label>
+      <input type="text" name="Name" class="form-control"placeholder="Enter Voter Name">
+    </div>
+    <div class="form-group">
+      <label >CNIC</label>
+      <input type="text" name="CNIC" class="form-control"placeholder="Enter CNIC">
+    </div>
+    <div class="form-group">
+      <label >Voting Icon</label>
+      <input type="password" name="key" class="form-control"placeholder="Enter key">
+    </div>
+    
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+
+  <form action="/createCandidateFromFile" method="post">
+    
+    <div class="form-group">
+      <label >Canidates List</label>
+      <input type="file" name="listfile" class="form-control"placeholder="Enter key">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div> -->
+
+
+<section class="form my-4 mx-5">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-5">
+                    <img src="./form.jpg" class="img-fluid" alt="" style="height: 900px;">
+                </div>
+                <div class="col-lg-7 px-5 pt-5">
+                    <h1 class="font-weight-bold py-3">Add Candidate In Polling !</h1>
+                    <h4>Add Candidate here! </h4>
+                    <h6 class="text-danger"><%= msg %></h6>
+
+                    <form action="/createCandidate" enctype="multipart/form-data"  method="POST">
+                
+
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <input type="text" placeholder="PollingName" name="blockChainName" value="<%=bcName%>" class="form-control my-2 p-3"  required readonly>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <input type="text" placeholder="Canidate Name"  name="Name" class="form-control my-2 p-3" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="col-lg-7 my-2">
+
+                                <select name="Status" class="browser-default custom-select" placeholder="Voter Status">
+                                    <option value="Active">Active</option>
+                                    <option value="Disable">Disable</option>
+                                    
+                                </select>
+                                
+                            </div>
+                        </div>
+
+                        
+
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <input type="text" placeholder="Address"  name="Address" class="form-control my-2 p-3" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <input type="text" placeholder="Contact (923XXXXXXXXX)" pattern="(.){12,12}"  onkeyup="cniconly(this)" name="Contact" maxlength="12" class="form-control my-2 p-3" required>
+                            </div>
+                        </div>
+
+                       
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <input type="text" class="form-control my-2 p-3"
+                                     required pattern="(.){13,13}"  minlength="13" maxlength="13"
+                                    placeholder="CNIC" onkeyup="cniconly(this)" name="CNIC">
+
+                            </div>
+                        </div>
+
+
+                        
+
+                        <div class="form-row mt-2 mb-3">
+                            <div class="col-lg-7">
+                                <select name="City" class="browser-default custom-select" placeholder="City">
+                                    <%for(var x=0;x<Cities.length;x++){%>
+                                        <option value="<%=Cities[x]%>"><%=Cities[x]%></option>
+                                    <%}%>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-row my-2">
+                            <div class="col-lg-7">
+                                <select name="Province" class="browser-default custom-select" placeholder="Province">
+                                    <option value="Punjab">Punjab</option>
+                                    <option value="Balochistan">Balochistan</option>
+                                    <option value="Sindh">Sindh</option>
+                                    <option value="KPK">KPK</option>
+                                    <option value="Federal">Federal</option>
+                                
+                                </select>
+                                <!-- <input type="text" placeholder="Voter Province"  name="Province" class="form-control my-2 p-3" required> -->
+                            </div>
+                        </div>
+
+                         
+                        <div class="form-row my-2">
+                            <div class="col-lg-7 my-2">
+                                <select class="browser-default custom-select" name="AREA CODE" placeholder="Select Polling Area">
+                                    <%for(var x=0;x<AreaList.length;x++){%>
+                                    <option value="<%=AreaList[x]%>"><%=AreaList[x]%></option>
+                                    <%}%>
+                                </select>
+                                
+                            </div>
+                        </div>
+                        
+
+
+                        <div class="form-row">
+                            <div class="col-lg-7 my-1">
+                                <select class="browser-default custom-select"  name="PartyName" aria-placeholder="Select Party">
+                                    <option value="PTI">PTI</option>
+                                    <option value="PPP">PPP</option>
+                                    <option value="PMLN">PMLN</option>
+                                    <option value="PMLQ">PMLQ</option>
+                                    <option value="Independent">Independent</option>
+                                </select>
+                                
+                            </div>
+                        </div>
+                       
+                        <div class="form-row">
+                            <div class="col-lg-7">
+
+                                <strong>Ballot Icon:</strong><input type="file" name="CandidateIcon" class="form-control-file my-1 p-2"
+                                    required>
+                            </div>
+                        </div>
+
+
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <button type="submit" class="btn1 mt-2 mb-3"> Submit </button>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- <form action="/createCandidateFromFile" enctype="multipart/form-data" method="POST">
+                        <div class="form-row">
+                            <div class="col-lg-7">
+
+                                <strong>Candidate List:</strong><input type="file"  name="CandidateIcon" class="form-control-file my-1 p-2"
+                                    required>
+                            </div>
+                        </div>
+
+
+
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <button type="submit" class="btn1 mt-2 mb-2"> Submit </button>
+                            </div>
+                        </div>
+                    </form> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script type="text/JavaScript">
+        function cniconly(i) {
+            var cnic = /[^0-9]/gi;
+            i.value=i.value.replace(cnic, "");
+        } 
+    </script>
+
+<%- include ('partials/footer') %> 
+
+
+

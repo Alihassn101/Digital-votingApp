@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "5fccc3985814ef2564604069"
+  },
+  "timestamp": {
+    "$date": "2020-12-06T11:42:16.113Z"
+  },
+  "data": "GenesisBlock",
+  "previousHash": "0",
+  "blockStatus": null,
+  "hash": "369f3270441559ce45293144817a7780b45550efb3d51762fef82fbc3f7a0b64"
+}]

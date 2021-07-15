@@ -1,0 +1,71 @@
+<%- include ('partials/Individualheader') %>
+
+<section class="form my-4 mx-5">
+  <div class="container">
+      <div class="row no-gutters">
+          <div class="col-lg-5">
+              <img src="./form.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-7 px-5 pt-5">
+              <h1 class="font-weight-bold">Dummy-NADRA </h1>
+              <h2 class="font-weight-bold">(Authority Login)!</h2>
+              <h6 class="text-danger"><%= msg %></h6>
+
+              <form action="/dummyNADRALogin" method="POST">
+
+
+                  <div class="form-row">
+                      <div class="col-lg-7">
+                          <input name="blockChainName" placeholder="PollingName (Without Space)"
+                              class="form-control my-2 p-3" value="DummyNADRA" readonly>
+                      </div>
+                  </div>
+                  <div class="form-row">
+                      <div class="col-lg-7">
+                          <input type="text" name="UserName" placeholder="UserName" class="form-control my-2 p-3" required>
+                      </div>
+                  </div>
+
+
+                  <div class="form-row">
+                      <div class="col-lg-7">
+
+                          <input type="text" class="form-control my-2 p-3"
+                               required pattern="(.){13,13}" maxlength="13"
+                              placeholder="CNIC" name="CNIC" onkeyup="cniconly(this)">
+
+                      </div>
+                  </div>
+
+
+
+                  <div class="form-row">
+                      <div class="col-lg-7">
+                          <input type="Password" name="Password" placeholder="Authority password" class="form-control my-2 p-3"
+                              required>
+                      </div>
+                  </div>
+
+                  <div class="form-row">
+                      <div class="col-lg-7">
+                          <button type="submit" class="btn1 mt-2 mb-3"> Submit </button>
+                      </div>
+                  </div>
+
+
+
+              </form>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<script type="text/JavaScript">
+    function cniconly(i) {
+        var cnic = /[^0-9]/gi;
+        i.value=i.value.replace(cnic, "");
+    } 
+</script>
+
+<%- include ('partials/footer') %>
